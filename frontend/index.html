@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Meeting Notes Summarizer</title>
+    <style>
+      :root { font-family: Inter, system-ui, Arial; }
+      .container { max-width: 900px; margin: 32px auto; padding: 0 16px; }
+      .card { border: 1px solid #e5e7eb; border-radius: 14px; padding: 16px 18px; margin: 16px 0; background: #fff; }
+      .btn { padding: 10px 14px; border-radius: 10px; border: 1px solid #e5e7eb; cursor: pointer; }
+      .btn.primary { background: #2563eb; color: white; border-color: #2563eb; }
+      textarea, input[type="text"], input[type="email"] { width: 100%; padding: 10px; border-radius: 10px; border: 1px solid #e5e7eb; }
+      h1 { font-size: 28px; margin-bottom: 8px; }
+      h2 { font-size: 20px; margin: 0 0 8px; }
+      small.muted { color: #6b7280; }
+
+      /* Footer styling */
+      footer {
+        margin-top: 40px;
+        padding: 16px;
+        text-align: center;
+        font-size: 14px;
+        color: #6b7280;
+        border-top: 1px solid #e5e7eb;
+        background: #f9fafb;
+        border-radius: 12px;
+      }
+      footer strong {
+        color: #111827;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 <strong>AI Meeting Notes Summarizer</strong> | Developed by <strong>Radheshyam Kumar</strong></p>
+    </footer>
+
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
