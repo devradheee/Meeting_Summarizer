@@ -32,7 +32,7 @@ Follow these steps to get the project running on your local machine.
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/devradheee/Meeting_Summarize.git
 cd meeting-summarizer
 ```
 
@@ -48,7 +48,7 @@ npm install
 Create a `.env` file in the `backend` directory and add your API key:
 
 ```
-PORT=5001
+PORT=5000
 GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
 ```
 
@@ -58,7 +58,7 @@ Start the backend server:
 npm run dev
 ```
 
-The server will be running on `http://localhost:5001`.
+The server will be running on `http://localhost:5000`.
 
 ### 3. Frontend Setup
 
@@ -75,7 +75,7 @@ Start the React development server:
 npm start
 ```
 
-The application will open in your browser at `http://localhost:3000`.
+The application will open in your browser at `http://localhost:5173`.
 
 ---
 
